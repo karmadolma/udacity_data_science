@@ -21,9 +21,9 @@ There are three files in total saved under this repository:
 Given the growing influence of AI in many fields, I aimed to explore software developers' views on AI advancements, their motivations for using AI, and the most popular AI tools they employ.
 
 #### Link to Blog 
-This analysis has also been published as a blog in medium which you can find [here] (https://medium.com/@karmadolma.grg/ai-a-developers-best-friend-in-the-digital-age-376f7e6b058e).
+This analysis has also been published as a blog in medium which you can find [here](https://medium.com/@karmadolma.grg/ai-a-developers-best-friend-in-the-digital-age-376f7e6b058e).
 
 #### Acknowledgement 
-I would like to thank Josh Bernhard whose [sample article] (https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711) from the nanodegree really helped to understand the course content.
+I would like to thank Josh Bernhard whose [sample article](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711) from the nanodegree really helped to understand the course content.
 
 
