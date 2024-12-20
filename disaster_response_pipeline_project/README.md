@@ -55,7 +55,9 @@ python data/process_data.py data/disaster_messages.csv data/disaster_categories.
 3. Training the ML Model
 Run the machine learning pipeline to train the classifier and save the model. Use the following command:
 
-""" python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl """
+```
+ python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+```
 
 4. Running the Web Application
 Navigate to the app/ directory and start the Flask web app:
