@@ -30,7 +30,11 @@ engine = create_engine('sqlite:///../data/YourDatabaseName.db')
 df = pd.read_sql_table('YourTableName', engine)
 
 # load model
+<<<<<<< HEAD
+model = joblib.load("../models/classifier.pkl")
+=======
 model = joblib.load("../models/your_model_name.pkl")
+>>>>>>> parent of 133e064 (made several changes to the scripts to make it work)
 
 
 # index webpage displays cool visuals and receives user input text for model
