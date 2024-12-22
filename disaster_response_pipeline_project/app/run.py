@@ -1,14 +1,16 @@
 import json
 import plotly
 import pandas as pd
+import joblib
 
+#import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 from flask import Flask
 from flask import render_template, request, jsonify
 from plotly.graph_objs import Bar
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
 from sqlalchemy import create_engine
 
 
@@ -26,15 +28,14 @@ def tokenize(text):
     return clean_tokens
 
 # load data
-engine = create_engine('sqlite:///../data/YourDatabaseName.db')
-df = pd.read_sql_table('YourTableName', engine)
+engine = create_engine('sqlite:///data/DisasterResponse.db')
+#engine = create_engine('sqlite:///../data/DisasterResponse.db')
+df = pd.read_sql_table('message_cat', engine)
+
 
 # load model
-<<<<<<< HEAD
-model = joblib.load("../models/classifier.pkl")
-=======
-model = joblib.load("../models/your_model_name.pkl")
->>>>>>> parent of 133e064 (made several changes to the scripts to make it work)
+model = joblib.load("models/classifier.pkl")
+#model = joblib.load("../models/your_model_name.pkl")
 
 
 # index webpage displays cool visuals and receives user input text for model

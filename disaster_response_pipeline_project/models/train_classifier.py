@@ -43,7 +43,7 @@ def build_model():
     }
 
     # Set up GridSearchCV
-    model = GridSearchCV(estimator=pipeline, param_grid=param_grid, cv=3)
+    model = GridSearchCV(estimator=pipeline, param_grid=param_grid)
 
     return model
 
